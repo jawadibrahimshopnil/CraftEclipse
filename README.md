@@ -24,3 +24,19 @@
   - Update Craft: Existing craft items can be edited and updated with new information or changes.
   - Delete Craft: Users have the ability to remove craft items from their collection if no longer needed.
 - **Secure Authentication:** User authentication is handled securely to protect user data and privacy.
+
+## Installation
+
+Follow these steps to clone and run the project locally:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/jawadibrahimshopnil/CraftEclipse.git
+```
+### 3. Add your .env
+
+### 3. Go to client and server side and install packages and start the server
+```bash
+cd CraftEclipse/server-side && npm i && nodemon index.js && cd ../client-side && npm i && npm run dev
+```
